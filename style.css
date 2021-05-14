@@ -39,44 +39,33 @@ h1 {
 }
 
 /* Style the navigation menu */
-.navbar {
-    width: 100%;
-    background-color: #696969;
-    overflow: auto;
-}
-
-/* Navigation links */
-.navbar a {
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    width: 33.33%;
-    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center;
-    /* If you want the text to be centered */
-    z-index: 9;
-}
-
-/* Add a background color on mouse-over */
-.navbar a:hover {
-    background-color: #000;
-}
-
-/* Style the current/active link */
-.navbar a.active {
-    background-color: #04AA6D;
-}
-
 .menu {
-    list-style-type: none;
     position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white;
 }
 
 .links {
     padding-left: 33px;
     padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
     display: inline;
+}
+
+.links:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
 }
 
 #img {
